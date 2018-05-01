@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Formations">
+    <ListView
+        android:id="@+id/listviewFormations"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:tint="@android:color/holo_blue_light"
+        app:srcCompat="@drawable/formations_icon" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORMATIONS"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="26dp" />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="110dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_light"
+                android:text="2018"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="143dp"
+                tools:layout_editor_absoluteY="26dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp">
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/darker_gray"
+                    android:text="Diplôme d'analyste Logiciel"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_marginLeft="75dp"
+                    tools:layout_editor_absoluteX="143dp"
+                    tools:layout_editor_absoluteY="26dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp">
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:text="CFA INSTA"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_marginLeft="75dp"
+                    tools:layout_editor_absoluteX="143dp"
+                    tools:layout_editor_absoluteY="26dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/textView2017"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:text="2017"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="143dp"
+                    tools:layout_editor_absoluteY="26dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp">
+                <TextView
+                    android:id="@+id/textViewBTS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/darker_gray"
+                    android:text="BTS SIO option SLAM"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_marginLeft="75dp"
+                    tools:layout_editor_absoluteX="143dp"
+                    tools:layout_editor_absoluteY="26dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp">
+                <TextView
+                    android:id="@+id/textViewItic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:text="ITIC Paris"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_marginLeft="75dp"
+                    tools:layout_editor_absoluteX="143dp"
+                    tools:layout_editor_absoluteY="26dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/textView2014"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:text="2014"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    tools:layout_editor_absoluteX="143dp"
+                    tools:layout_editor_absoluteY="26dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp">
+                <TextView
+                    android:id="@+id/textViewBac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/darker_gray"
+                    android:text="BAC STMG"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_marginLeft="75dp"
+                    tools:layout_editor_absoluteX="143dp"
+                    tools:layout_editor_absoluteY="26dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    android:id="@+id/textViewLycee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:text="Lycée Moulin Joli, La Possession"
+                    android:layout_below="@+id/imageView6"
+                    android:layout_marginLeft="75dp"
+                    tools:layout_editor_absoluteX="143dp"
+                    tools:layout_editor_absoluteY="26dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

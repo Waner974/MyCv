@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyCV</string>
+    <string name="Name">Erwan Daly</string>
+    <string name="Titre">Développeur</string>
+    <string name="email">erwan.daly@gmail.com</string>
+    <string name="phone_number">01 00 12 34 56</string>
+    <string name="adress">10 rue test, 75000 Paris</string>
+    <string name="git_link">https://github.com/Waner974</string>
+    <string name="descriptPoste1">"Apprentissage au sein du Système d'information en appui à
+la filière RH (SAFIRH) d’EDF dans une équipe développant et
+maintenant en fonctionnement des applications RH de
+service et de reporting décisionnel."</string>
+    <string name="descriptPoste2">"Développement d'application de reporting sous un environnement Windows (Excel, Access...).Pour des clients tel que Bouygues Telecom, AXA ....</string>
+</resources>
